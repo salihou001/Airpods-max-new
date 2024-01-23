@@ -1,0 +1,35 @@
+.overlay{
+    // transform: scale(30);
+    border:none;
+    transform: scale(0);
+}
+.overlay_2{
+    z-index: 0;
+}
+.super-container{
+    // background-color: rgb(58, 56, 56);
+}
+.blur_1,
+.blur_2,
+.blur_3,
+.blur_4{
+    z-index: 100;
+    border-radius: 50%;
+    backdrop-filter: blur(20px);
+    display: block;
+}
+.img_3,
+.img_1,
+.img_4{
+    display: none;
+}
+.parentImg,
+.section_arrow,
+.social,
+.zone_text,
+.entete,
+.logo_title,
+.content,
+header{
+    z-index: 1000;
+}
